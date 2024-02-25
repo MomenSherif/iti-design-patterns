@@ -1,0 +1,23 @@
+{
+  "name": "design-patterns-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@anatine/esbuild-decorators": "^0.2.19",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "rollup-plugin-swc": "^0.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-swc-transform": "^0.2.0"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.1"
+  }
+}
